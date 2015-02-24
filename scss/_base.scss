@@ -1,0 +1,29 @@
+body {
+    @include body-font-normal;
+    font-size: $base-font-size;
+    line-height: $line-height;
+    margin: 0 auto;
+    //margin: top/bottom left/right;
+    max-width: 900px;
+    width: 100%;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+h1, h2, h3, h4 {
+    @include headline-font;
+    line-height: 2;
+}
+
+ol {
+    list-style-type: decimal-leading-zero;
+    margin: 0 0 0 2;
+    padding: 0;
+}
+
+ol li {
+    margin-bottom: 2;
+}
